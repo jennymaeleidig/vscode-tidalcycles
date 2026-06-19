@@ -1,4 +1,4 @@
-import { Range, TextDocument, TextEditor, window, workspace } from 'vscode';
+import { Range, TextDocument, TextEditor, window } from 'vscode';
 import { feedbackColor } from './config';
 
 export const getExpressionUnderCursor = (
